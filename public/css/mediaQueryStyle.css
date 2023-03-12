@@ -1,0 +1,171 @@
+/* Tablet */
+@media (min-width: 768px){
+
+    .menu{
+        position: relative;
+      
+    }
+
+    .menu .logo{
+        font-size: 35px;
+      }
+
+    .menu label{
+        display: none;
+    }
+
+    .menu .navbar{
+        display: flex;
+    }
+    .menu .navbar ul{
+        display: flex; 
+        align-items: center;       
+    }
+    .menu .navbar{ /*creacion barra desplegable*/
+        position:relative;
+        float: left;
+        background-color: black;
+
+      }
+    .menu .navbar ul li a{
+        font-size: 10px;
+        color: #ffffff;
+        display: flex;
+        padding-left: 20px;
+    }
+
+    .menu .navbar ul li .search-button-container{
+        padding-left: 20px;
+    }
+
+    .menu .navbar ul li a:hover{ /*cambia de color cuando paso el curso por encima*/
+        color: red;
+        font-weight: bold;
+    }
+    .banner .imagen{
+        margin: 0;
+        width: 100vw;
+    }
+/*main*/
+    .offers {
+        height: 860px;
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .products article {
+        width: 49%;
+    }
+
+    article {
+        height: 26em;
+        transition: all 400ms ease-in;
+    }
+
+    .main-article h4 {
+        position: relative;
+        bottom: 40px;
+        z-index: -1;
+        opacity: 0;
+        transition: all 400ms ease-in;
+    }
+
+    article:hover {
+        box-shadow: 0 0 10px rgb(184, 25, 25);
+        height: 27em;
+    }
+
+    article:hover .main-article h4 {
+        position: relative;
+        bottom: 0;
+        z-index: 1;
+        opacity: 1;
+    }
+    .offert article{
+        width: 30%;
+    }
+    .offert article img{
+        width: 200px;
+    }
+    .offert article{
+        height:auto;
+    }
+    .price {
+        font-size: 16px;
+        width: 40%;
+    }
+    .discount {
+        width: 60%;
+        color: green;
+        font-weight: bolder;
+    }
+
+
+}
+
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .menu .logo{
+        font-size: 50px;
+        font-weight: normal;
+      }
+
+    .menu .navbar ul li a{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    
+    .products article {
+        width: 32%;
+    }
+
+    article {
+        height: 26em;
+        transition: all 400ms ease-in;
+    }
+      
+      
+        footer{
+          padding: 50px 50px;
+      }
+      .ft{
+          display: flex;
+          justify-content: space-between;
+      }
+      .enlace h3{
+          color: red;
+          font-size: 20px;
+          margin-bottom: 25px;
+      }
+      .enlace li{
+          list-style: none;
+      }
+      .enlace a{
+          color: #ffffff;
+          display: block;
+          margin-bottom: 15px;
+      }
+      
+      .enlace form{
+          display: flex;
+          flex-direction: column;
+      }
+      .btn-2{
+          padding: 10px 25px;
+          border: 0px;
+      }
+      .btn-3{
+          background-color: #f61706;
+          padding: 10px 25px;
+          border: 0px;
+          color: #ffffff;
+          margin-top: 15px;
+      }
+
+}
+

@@ -1,0 +1,263 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--negro);
+  font-family: 'Nunito', sans-serif;
+
+}
+a{
+  text-decoration: none;
+  color: var(--negro);;
+}
+
+  
+.menu {
+  position: relative;
+  top: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.menu .logo{
+  font-weight: normal;
+  font-size: 25px;
+  color: #f61706;
+  font-family: 'Poiret One', cursive;
+}
+
+#menu{
+  display: none; /* para que no aparazca el checkbox*/
+}
+.menu .navbar ul{
+  list-style: none; /* quitar puntos de las listas*/
+}
+.menu .navbar{ /*creacion barra desplegable*/
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #f61706;
+  display: none;
+  padding: 20px;
+}
+div.search-container {
+  display: flex;
+  height: 25px;
+  width: 90%;
+}
+.menu .navbar li input{
+  width: 95%;
+  border: none;
+  background-color: var(--blanco);
+  border-radius: 5px 0 0 5px;
+}
+.menu .navbar li button{
+  width: 15px;
+  padding: 1px;
+  border: none;
+  background-color:red;
+  border-radius: 0 5px 5px 0;
+}
+
+.navbar{
+  display: initial;
+}
+
+.menu .navbar ul li a:hover{
+  color:#bebebe;
+}
+#menu:checked~ .navbar{ /*para que se vea la barra desplegable*/
+  display: initial;
+}
+.menu-icono{
+  width: 25px;
+}
+div .burger-menu{
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 5px;
+  color: var(--blanco);
+  background-color: red;
+}
+.banner .imagen{
+  width: 100vw;
+}
+/*Main*/
+
+main img{
+  width: 300px;
+
+}
+.offert img{
+  width: 300px;
+
+}
+main h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.collection,
+.offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collection .products,
+.offers .products {
+  width: 95%;
+}
+
+.products article {
+  background: white;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.products article i {
+  color: red;
+  border: 1px solid red;
+  background: white;
+  border-radius: 50%;
+  padding: 8px;
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+}
+
+.main-article {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 10px;
+  border-top: 1px solid red;
+}
+
+.price {
+  font-size: 18px;
+  width: 30%;
+}
+
+.discount {
+  width: 70%;
+  color: green;
+}
+
+.description,
+.discount {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h3,
+.description {
+  color: gray;
+}
+
+article {
+  margin-bottom: 15px;
+}
+main section div.products article{
+  height: auto;
+}
+
+main section div.products article i {
+  transition: transform 1s;
+}
+
+main section div.products article:hover i {
+  transform: rotate(-90deg  );
+}
+section div.products article i {
+  transition: transform 1s;
+}
+section div.products article:hover i {
+  transform: rotate(-90deg  );
+}
+/* Oferta*/
+section h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+.bg-sec{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/banner2.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 35px 0px;
+  
+}
+.bg-txt{
+  padding: 100px 0px;
+  text-align: center;
+  color: #ffffff;
+}
+.bg-txt h2{
+  color: #f61706;
+  font-size: 15px;
+}
+/* Footer*/
+footer{
+    padding: 50px 0px;
+}
+.enlace h3{
+  color: red;
+  font-size: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.enlace li{
+  list-style: none;
+}
+.enlace a{
+  color: #ffffff;
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.enlace form{
+  display: flex;
+  justify-content: center;
+}
+.btn-3{
+  background-color: #f61706;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+}
+
+
+
+
+
+/* Fin Footer*/
+
+
+
+
+
