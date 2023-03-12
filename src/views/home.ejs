@@ -1,56 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OPGLO</title>
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/colors.css">
-  <link rel="stylesheet" href="/css/mediaQueryStyle.css">
-  
-  <!-- Libreria Fontawesome-->
-  <script src="https://kit.fontawesome.com/439c181295.js" crossorigin="anonymous"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
-
-  <!-- Tipografia-->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Tilt+Neon&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
-</head>
+<%- include('partials/head')%> 
 <body>
-    <header>
-        <div class="menu container">
-            <a href="/" class="logo">OPGLO</a>
-            <input type="checkbox" id="menu">
-            <label for="menu">
-                <div class="burger-menu">
-                    <img class="menu-icono" src="/images/menu-btn.png" alt="menu">
-                </div>
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li> <a href="#">Hombres</a></li>
-                    <li> <a href="#">Mujeres</a></li>
-                    <li> <a href="#">Sale</a></li>
-                </ul>
-                <ul>
-                    <li> <a href="#">Ingresar</a></li>
-                    <li> <a href="#">Registrarse</a></li>
-                    <li> <a href="#">Tus compras</a></li>
-                    <li> <div class="search-button-container">
-                        <div class="search-container">
-                            <input type="text" placeholder="Buscar...">
-                            <button><i class="fas fa-search"></i></button>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+
+    <%- include('partials/header')%> 
+
     <section class="banner">
         <img src="/images/banner3.png" alt="" class="imagen">
     </section>  
@@ -161,47 +113,10 @@
                     </div>
                 </article>
     </section>
-   
 
     <!--Footer-->
-    <footer>
-
-        <div class="ft container">
-
-            <div class="enlace">
-                <h3>Buscar en tienda</h3>
-                <li> <a href="#">Relojes Masculinos</a></li>
-                <li> <a href="#">Relojes Femeninos</a></li>
-                <li> <a href="#">Todas las Colecciones</a></li>
-                <li> <a href="#">Ofertas</a></li>
-            </div>
-            <div class="enlace">
-                <h3>Contactenos</h3>
-                <li> <a href="#">3224967052</a></li>
-                <li> <a href="#">Email:info@opglo.com.co</a></li>
-                <li> <a href="#">Servicion de Atención al cliente</a></li>
-            </div>
-            <div class="enlace">
-                <h3>Nosotros</h3>
-                <li> <a href="#">Términos y Condiciones</a></li>
-                <li> <a href="#">Servicio Técnico</a></li>
-                <li> <a href="#">Avisos de privacidad</a></li>
-            </div>
-            <div class="enlace">
-                <h3>Email</h3>
-                <form>
-                    <input type="text" class="btn-2">
-                    <input type="submit" class="btn-3">
-
-                </form>
-
-            </div>
-
-        </div>
-
-
-    </footer>
-    
+   
+    <%- include('partials/footer')%> 
   
 </body>
 </html>
