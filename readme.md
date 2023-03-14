@@ -7,6 +7,7 @@ Integrantes del Grupo:
 -   Soy Edison Leon ,  tengo 30 años, soy mecanico de aviones y estoy incursionando en el mundo del desarrollo full stack.
 -	Mi nombre es Samara, tengo 28 años y estoy incursionando en el mundo del desarrollo full stack.
 -	Mi nombre es Mariapaula, tengo 19 años. Estudiante de psicología y estoy incursionando en el mundo del desarrollo full stack. 
+- Mi nombre es Diego Niño, Tengo 20 años, soy estudiante de ingeneria de sistemas, estoy para mejorar mis habilidades.
 
 3. Inspiración
 Acontinuación dejamos las listas de paginas que tomamos como inspiración para nuestro protecto.
