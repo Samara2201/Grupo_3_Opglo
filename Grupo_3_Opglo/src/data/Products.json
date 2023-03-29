@@ -1,0 +1,91 @@
+Products[
+{
+  "id_Producto": "34fd0bbc-3c5e-4b0b-b38b-0ed49a42fdd4",
+  "name_Producto": "Bank of America Corporation",
+  "description": "Unspecified parasitic disease",
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ/SURBVDjLpZNfSFNRHMe/293umptu01GJMF1WQ5dRQgVl0UthYNHDiAQhChF6bdBLrz1Erz3Ug7CewqeoF0XzZVialnaXSHOYM2Ko6Szn3P2ze+/pnDMdodZLFw7n3nPP9/P7/n6/cyyEEPzPY9u5MDU1FdN1vatYLNroDDrzoWkam/sikUjnnoBEIuGhgl6v1xtxOCqgUhFME9wfdenzeTE4OHCTfu0GSJLUzsR+v7/O5XIhvZABi26aBCYxKYjAoDBVVfdOgW4eCAQCfEGWFRSpeDoxSQFmeVy6fIWnsSeA5SiKInK5XCmyYaA5fIJHJ1vRWbGrhRRmX3QSwd2CzdU4LErmFgcwskFFbBNrCrOekD7Q2eDR2b/AxSqcb7TD6e+CJ3gSv9IhJId6H5cdlGpF+GYGCLe08ujMRaUxAb9rCe7ac1j7+gWiRUNl1UG4awKesoNtAIfQyEzM353DCPkIvMF2qIt9ECss+CYlUVS0rCLnz5YBZbFRKhoDOPUEWmp1eBqvQck8g1XUYXfXY19hermQt7WfuvcmxQGsPdsnkllmKZDsKI4eWYfn8HUqfgqrXYeWC2IlPrZhyIWO1ui4VO4Cc8C6IAhCKe/V92io+Yn94avQlnohiATKej0W4+O08oXjoej4wnYbrVsOJkZGRpDP57GRjqPBR9tJ6rA4/QQmFGyu1WF5dAbPZwMIRccW/jwHHNDd3X1mbm6uo7+/fzKTfInmth44vr9F6vU7SINrmBn6CGfbA2Rl666DZNl5Gx/2HNPv37krwGpAGn6F+XQan8Q2ZFUHa3EyFos1/RNw40K13HrogO10UxDEro7KP1Zudzz6PP+36/wbU7aHpoSFkuUAAAAASUVORK5CYII=",
+  "referencia": "Granite Surfaces",
+  "Colores": "Orange",
+  "precio": "error: undefined method `*' for nil:NilClass"
+}, 
+{
+  "id_Producto": "86894c70-5a3b-4e71-b541-88fe11ac832c",
+  "name_Producto": "Malibu Boats, Inc.",
+  "description": "Osteonecrosis in diseases classified elsewhere, left upper arm",
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ/SURBVDjLpZNfSFNRHMe/293umptu01GJMF1WQ5dRQgVl0UthYNHDiAQhChF6bdBLrz1Erz3Ug7CewqeoF0XzZVialnaXSHOYM2Ko6Szn3P2ze+/pnDMdodZLFw7n3nPP9/P7/n6/cyyEEPzPY9u5MDU1FdN1vatYLNroDDrzoWkam/sikUjnnoBEIuGhgl6v1xtxOCqgUhFME9wfdenzeTE4OHCTfu0GSJLUzsR+v7/O5XIhvZABi26aBCYxKYjAoDBVVfdOgW4eCAQCfEGWFRSpeDoxSQFmeVy6fIWnsSeA5SiKInK5XCmyYaA5fIJHJ1vRWbGrhRRmX3QSwd2CzdU4LErmFgcwskFFbBNrCrOekD7Q2eDR2b/AxSqcb7TD6e+CJ3gSv9IhJId6H5cdlGpF+GYGCLe08ujMRaUxAb9rCe7ac1j7+gWiRUNl1UG4awKesoNtAIfQyEzM353DCPkIvMF2qIt9ECss+CYlUVS0rCLnz5YBZbFRKhoDOPUEWmp1eBqvQck8g1XUYXfXY19hermQt7WfuvcmxQGsPdsnkllmKZDsKI4eWYfn8HUqfgqrXYeWC2IlPrZhyIWO1ui4VO4Cc8C6IAhCKe/V92io+Yn94avQlnohiATKej0W4+O08oXjoej4wnYbrVsOJkZGRpDP57GRjqPBR9tJ6rA4/QQmFGyu1WF5dAbPZwMIRccW/jwHHNDd3X1mbm6uo7+/fzKTfInmth44vr9F6vU7SINrmBn6CGfbA2Rl666DZNl5Gx/2HNPv37krwGpAGn6F+XQan8Q2ZFUHa3EyFos1/RNw40K13HrogO10UxDEro7KP1Zudzz6PP+36/wbU7aHpoSFkuUAAAAASUVORK5CYII=",
+  "referencia": "Termite Control",
+  "Colores": "Fuscia",
+  "precio": "error: undefined method `*' for nil:NilClass"
+}, 
+{
+  "id_Producto": "21cc0d83-1939-4c5d-9044-4019e9a44af1",
+  "name_Producto": "Shell Midstream Partners, L.P.",
+  "description": "Fracture of other and unspecified finger(s)",
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJzSURBVDjLpZNLbxJRFMf7AfwEfA5YunTDTnwk3RlfMWFj4qKpKyfV2EVjhMwAUUyb1gYqCdWgQmqkRToFaRoLBcoUEGiB8hoQpgzPcpxzgREfO2/y39yc/++87p0CgKlJXTKCQpJKklrS9Ejq0Z3iz/hJ4wVJyofrda1954Tx78fZg8ghHwpH+e29GPvGk2JmbFUtxmDsb4CR+aLVm6dCh0muUKmDIHahdz4gajQ7kCtWwbcX5hY3khTGjiFjgBLN4dh3odXuAR6x04eq0AVe0lm7T+4EsQPbgaBgdh4hREkA2BeWjZnHZsduCYo/OlCoDZWvtSFXbcuQjU0fd3+1gO0oEKCys8cMlo2nXO/A1SdeeBcoymbNnAfuGiOkGjyx1CnQNj+DXgSofd+OWOwZS0XTlcdeSR5Y9xchy7ckwBYBVBpdqDd7UKqJsLT2nkUvAqaDBxEeh4UBCMCMqOvzfmCcGdBQW3DHECbVnVRa0Omdw6pljUcvAeyHwgSAAdgrmq893SGZDa5juPzIDbeZISBTbklVdGFp+bUMUH/ZjbI1oQ0NsUcyELOUFStKFUUJ8JkAcLC4mXi2BrTZIregsrgTTCZXgcEASAYN5SbmZEEkQvNNOkza6/YHsPk1CpTpozxExQNrWev2Bji+3pI3gcbEaRPi+aa8TjQnpOz6FyvcLVN8uMbxQ6LfhijHJ69QqJ6RSmpnPVJNuiSS9aE5nq2CzmwVZmnnr4c0+ZQXLAFqxebg/MEEZAp1MhPsOZrmweUNwQK9yM3oP/z9lCc/071Xae3cSxfzzLjM0gYT/1zP8PM6MzurszM3mNi/P9P/fOefb4UIeuRftTUAAAAASUVORK5CYII=",
+  "referencia": "Soft Flooring and Base",
+  "Colores": "Pink",
+  "precio": "error: undefined method `*' for nil:NilClass"
+}, 
+{
+  "id_Producto": "34fea6f9-4eea-4d95-9bb7-3aa78be9178f",
+  "name_Producto": "DXP Enterprises, Inc.",
+  "description": "Other superficial bite of unspecified finger",
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC4SURBVCjPdZFbDsIgEEWnrsMm7oGGfZrohxvU+Iq1TyjU60Bf1pac4Yc5YS4ZAtGWBMk/drQBOVwJlZrWYkLhsB8UV9K0BUrPGy9cWbng2CtEEUmLGppPjRwpbixUKHBiZRS0p+ZGhvs4irNEvWD8heHpbsyDXznPhYFOyTjJc13olIqzZCHBouE0FRMUjA+s1gTjaRgVFpqRwC8mfoXPPEVPS7LbRaJL2y7bOifRCTEli3U7BMWgLzKlW/CuebZPAAAAAElFTkSuQmCC",
+  "referencia": "Granite Surfaces",
+  "Colores": "Violet",
+  "precio": "error: undefined method `*' for nil:NilClass"
+}, 
+{
+  "id_Producto": "872f16dd-c116-4c03-9373-5a7067f9f4a9",
+  "name_Producto": "Bank of America Corporation",
+  "description": "Nondisplaced articular fracture of head of unspecified femur, initial encounter for open fracture type I or II",
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAANvSURBVDjLVZNbbFN1HMe/p+d0be3p6Lr7unWMbuCQbR3FQWAEyPASkYe5mHhJTIhhPPngDAQTEGOMIZBpFiKoIWiIhAdgYxI14cFEo1M6O+Zmx1ob2MbYhbEb6zn/y7n8fcCZ7ZP88nv7JN+HjySEwDKfDX6oMpO3Uc5fpJw0UM5AGY0Ryn+U+dZP/OI116evB3WsQFoWtA+c2MUM/vVmf2OFrLhhSBYKPPn4Z3wInYnL54LSF4PcMA9zbh043xr+eZXg9F/Hm0POys5cbwke8Fn0Z4YgCwe2q/W49MdXcx6zucEn7Y01VKqBxMhjjE5mXrlypLYLAByn+o8HKKcXC9QQ+jIp/LLwOxaMRVR6yjE9dR+aRo55RdN76wvcgcIcN6qKVRDCLz5/tCcAAA6dkbaof5eaJuMY0pPQTYp8OQCVOnF94Gp/UD5zixKjtbLMi+EJikC2C1WlPpXqpO0/gbZPdrowmBkGNxmyHSpqs59GLPUbyBJ9x2BKR2SdT+aGjfFZjtQUQ1GuF5TQfU8EhG5kkgkHJETUTWjK2YGpu6OIp+MXQt5vSghh0Rp/EsFHpwC6iLFJBpeigFFSAQCKRnRS6M7LavRtwfTEfZzra59jGu84Mb//bHIxrvy6Zu3dAq37mdLwDtTP/oSbCy+BcQWcUBkAFF0n93rv9ERu/N01wwg7eWSy9ErTnPctoSeSO/X4buf+7XklZVuQXVyPGtcHSPvq8OBhITgj6ScTNPJt98C1Q+1j4fqb6Zpg04x7yCgv+9iS5cBCnRXelns7z5fnh/X4O5TXv4md6g8YSY3BYOR7AFC60pELQicnhU7OGOHyLCNcDtuyoNwexFIV3g7VviqD9iF2qRvbDr6PPNIL76JJTSO/AwAcIqMp9lLmDbY1msWrKkCSw7A1At2vwxWKvOzL0WGze4CwYWV6UbG7DYdqYrPXmzspADicn5+dsZe0A9KtOJAYhrOoGBbJYG6TCX8oAlsfgLAJoi0bYPMJuN0prNvcEjQZf3dVC0uNe54TlH7Jw2srFqslOJueRdF6D6xMDEJwxK/dQbSlGpK8BvC8gD/PH3sobHuPtLLG+eo61WL88Ghr9tGNBy9nyY4RCHMegFjRnwOyZwOmE/1I3fjo6irBMj2no4+EZT8lbAFh2ytO/P9h2xBCxP8FbMDM8CUkkoMAAAAASUVORK5CYII=",
+  "referencia": "Sitework & Site Utilities",
+  "Colores": "Puce",
+  "precio": "error: undefined method `*' for nil:NilClass"
+},
+ {
+  "id_Producto": "7932c729-0776-48d1-9649-ce8f345926f2",
+  "name_Producto": "UBS AG",
+  "description": "Toxic effect of venom of other reptiles, intentional self-harm, initial encounter",
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJeSURBVDjLpZNLSNRRFIe/O81o+WjISM0epuarEHuDqIFEDyoqEFtFD4gWQVDQoo0QhFARbowKNNpKi0DJRYVGqRmY5oPUBs3S1GnMcdR0/v8Z554WM44RGURne7nf+X6cc5SI8D9lBTh79/0VIBkoAHaCCIJCCxaLwqJAa40O4LFZpT9z/cpdaOFqcZZCRDhT0V4p/1i3HveIiAQNgEKAh83usNrfgp3Pj6NvyGOGI6AlceExPT4SAKX+/PnjNxMAr+GPCANEJGqhq8NlLtk53myk0FlN/0QO19a+Ul33Lp4OArRYF9SWqrmxWqb7WliRcwp7ynY8g5n0Pa+6vQBQACXX6zG0RgvU3djP4OhUMI7nBXZ6iEvPxz3QS4TyEbsykZjVG+0hgAbgu9fPvm1J1LWNhDtH+1qxSRf21IOYY9VERCm+dPQxPatQvolcS8gAgBkjgF+EOXM+OImpZmw/GrCnHcYYrUTZJrHFxBItbh4N5bH70hOHBUCFDEzTj9cfIGD4cfbWEjX7GvvmYxgj97HY/PimN+Fq7GTNgTKchh2AoMEvUxeBnKgOPF+bid96BJ+zimURgjmdzHhTO6qonOUJ2YjMLwL0vA4ThluqKT0UwBdIYqy7Ao3BrHsdrre9qKJyVHQCodgSBgS0/gzQ/eAExWntbCm4QORwE46aZjqeuXG87GTD8TukZmSRkmQPmcrk4iYGdE1JaUOGiOTlulyrfB+ekpJbyNT4BANtDupjLzNe9g6R1lBIPQOWXgD1+zmf3Bvn3ZGaYN2TnYLYzDde1/i5oze7Pi21YD8BVSdMJ0n4cQkAAAAASUVORK5CYII=",
+  "referencia": "Fire Sprinkler System",
+  "Colores": "Yellow",
+  "precio": "error: undefined method `*' for nil:NilClass"
+},
+ {
+  "id_Producto": "d27693ad-209f-4331-b6c6-12c08c9c2d65",
+  "name_Producto": "Celyad SA",
+  "description": "Unspecified injury of extensor muscle, fascia and tendon of right index finger at forearm level, sequela",
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEoSURBVDjLrZMxSgRBEEXfiBiIkRjpRTyAuZGH8ALewmtsbOAVNjM1F0FEwURwZ9vq+t+gZ3aR3RFEC5qGLv6v11XdnW3+ErsAs9nMpRT6vme5XLJYLDZW3/erfCmF+XzeAXT/QgBwc7ewASUYsOHidL+7vn1eVzCkzNX5cbdhkIKjgx0EWPDyrpXu5HAP2Ujw+LrcTmBDuu0y1LV+JVaaSG83qAnS2iBzPDdZQTKZIsqEgQYC6TtBraKmUJoqUaL+TNAMjLI5RIhaW/VMTxNUtUbKbgTDFT7DK4pMU8bExhRSpLp1DzwaJFFFDhQRUwSGp7ckh4mM7ytKUqNVrzIREwSXZwfdtpdWwsRQXWpT2WowFRHZxNl6I+l3BvXT3D98bAjH+PNn+gIL+yQjrYYUIQAAAABJRU5ErkJggg==",
+  "referencia": "Waterproofing & Caulking",
+  "Colores": "Indigo",
+  "precio": "error: undefined method `*' for nil:NilClass"
+}, 
+{
+  "id_Producto": "a39e7758-9ee3-4aab-9af7-390fad86b0b2",
+  "name_Producto": "Maxim Integrated Products, Inc.",
+  "description": "Chronic allergic otitis media",
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAI8SURBVDjLpVNNiFJRFP70ac80w6FEJ2FqsDKmSRpmU6taBRGE4aaCYPatat1qtu3aRosJI4Ro0Q+EIP0QCTM4WhSBBqmkJJr2cvx53vfu69w3vXIapUUPPs69553zne+ee67NMAz8z+cY3aTTaZkIzxMucc6PkD1EoCV/T/YT2TuEdCwW060cm6WAkudofd/v90eDwSA8Hg/cbjfEf0VR0Ol0UKlU0Gg0XpPvYjwer5qJIkAglUo9L5fLopwx6WOMGblczkgmkytWnt2SQpujgUDgn2cOhUKgIme39YCcJmO9XofL5YIsy3A6naav1+uh1WqhWq0iHA6bsRMJHA4H2u02BoOBudc0DUzJw8PygHTG9I0lsM4kSZKpQBAJMHUDanMNe2ZOQS3lKXkeuv77Ev70wFJgVmTMhAjUGi8xte8Edk8vwNl9C32jtEXBNgIziUhMdGsYfn0B714f9B+PMH3sCvrlJ+A6m0xgVdc0BvXLM/gjF4DBOlbv3sMuXx+DWhZevSSPJRCwquvKR8i2IbxTPXD1MzWJk/w1zJ6+jiBb96zeOundQiCki6uiSYS8QwKvPIVv5jh47x3l9rEYj4APa9TgAg5Ez0maOrz2t4KlTCbTLRaLcH7PUuOicHubMLRvNPASsg8LIgp8UID/8H7oKrv6anl+zjb6GhOJxCwR3TiorCwtXL5tl+wlImiLSx6ZRTuknRHUP+RReLz8wDbuOb+5udg0dO6mY9sN0Vyu801Ls/LLYrPp2Z9W3anPTwD1kQAAAABJRU5ErkJggg==",
+  "referencia": "Masonry",
+  "Colores": "Yellow",
+  "precio": "error: undefined method `*' for nil:NilClass"
+}, 
+{
+  "id_Producto": "4d7c3715-a4cc-4b59-b765-29fabbb982ea",
+  "name_Producto": "Public Storage",
+  "description": "Localized swelling, mass and lump, neck",
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAL2SURBVDjLVdNNaBx1GMfx78zO7Lu765qQWIPteqiH+IKCjTmkClIVPHi0pVDSXBT0sGhLUOvJl0OL4AuVBC+CLXpoD1KqweBBWFFajOChSTU20q2h6e66nX2Znfm/ejCJ8Qff6+fy8DjWWgCmz9f3AR/cV0pPhtIQSoM0hoEyAdAFmoAG2kAL+Bz41mNzRqmJh0fzk689MczO9YUphsIU25EeExK6sebPZo9v/ugfAKo7gZFC0gGgflvjOw6eAwkPUr7LvSmXhOviJ+CRsQy7irnyp5fW33e3AC1loWQilIGucAgkdDoRQQRBBK0B3OppAF4/e53JSo4HhvzhbSAfBiP7v5pHHZ2mH2kqJ2cZ+uxjwqBPNzb0IstAgAEc3eGna22WrgfrLoA4Ol2eXfrimZw3QDoeYWyRePh0GZ0/RdTu0o8NfWnAwkYn5sPF1Y4WYtoVR44cNGH01+iwXzT1FvVj76CApUNVxI2ApNNn77EZUrXviZSDsaB9jRKicv7lxxZdM4jm433jabO0Asdn6eTLOC7oQpnfX3gFfrmKnBjnnrmTuFJiLag4RotYA7gmHLyY+LoWmcounBNvYm81cLEkgyaVuXdRe+7GuVijPlPFSfpIren1Q6WE6AC42YsXvjy9e//EtdXbyHyKyqszYOH+946TKHiEbcOVuXMEUwfI+NDqxahYbCy89awFcAEWhvaKj6YO48WQaDTAcXGbDcIA1k6cQuaKYCHruTTaA7SI17eu501Vzw4Bbz84OU6veobvlgW5rubHTy6Q9i2+B8nEvxWysFoPUUJsbANaiKeA535eXqM98OjFFqktsXQQyqC0wVhLuVjkpadHudkK0UI0/gOkfPT5Jx/KvHH48f/9gLYgtUUowMLphXWyPnR7IVrK1k5g7WYz4MziMqV8hlIhTSmXophLcUc2SSrpkvJcDk2NkPKg8XcXLeWNbcAoda52eWWsdnllN3DXZnduVkwnfT+d9inkMpQKWX69Wv8N+GEL+AdfSH+n2ppttwAAAABJRU5ErkJggg==",
+  "referencia": "Granite Surfaces",
+  "Colores": "Red",
+  "precio": "error: undefined method `*' for nil:NilClass"
+}, 
+{
+  "id_Producto": "7bd4384d-4003-4ee9-9721-f232f7f965b1",
+  "name_Producto": "Citizens First Corporation",
+  "description": "Displaced oblique fracture of shaft of right tibia, subsequent encounter for open fracture type I or II with nonunion",
+  "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIsSURBVDjLpZNdSFNhGMfPKBKvomKECH5c2AcVNpgILUNmid40KaKstGzk/Eh2oQjDRrYRpSN3xkoXuWzpqW2iCdOokYYTa9uxliLVMItlWKR1YZNt6uHf2bkYGUtOdPHcvLy/3/99n+d9CQDE/xTvjZ+dmYlTdtk3r7GIcZOHMWHO/PihKyuJt8BvLcI7qgqhgAfhGRrem1K4NKJevukITj5AODCKyMwYV6GpQXhIGcMLDn8fQfiTFdO9FxD0UVxFBbTxaIgXvBJ0YNFfgZ8+JV6bizHdXQuPQYY1m7gKfn8WwTcHsfSjBbP9JfDrJVhzCvHgetsBnO8QrYLjCp6R2+Mm11jEuOw4ieOmHX8XPGnahoXZIQ5WUjlQdmWj8p4YcvNeXHx4DHbagLpuGQ7pty7n6DYJYgKTPC0tCgfoPrhtCi65ujMbfa9a0fPyBgdaaRLk0zpYXjSjgspH1tWE5T1agYATGGtSsBBwY+nLOAbUYozcEkHO3jcKtziVaHpcjSuPytHoKINmQAGTS4vTd/cj4xIRiQki7Ouat5fhqykXLoUQp27vhM1LgnJfh+V5M+6MXmMlVWhzaVBOFSBdTbxNVhGJnKBYuhmT7SVY9N3HvM+GYV0BjrSlo9CQzOTphYxEt5Ep7diH1uFGnOvMR6qaGE9SEQmxHpzI3YJSqRDtlRnor98Np07S8+d0dmkFc2cseUhtIMZYeMM//0b2yHMpDesgVBHrf1//BaVfyc6lPey4AAAAAElFTkSuQmCC",
+  "referencia": "Asphalt Paving",
+  "Colores": "Puce",
+  "precio": "error: undefined method `*' for nil:NilClass"
+}]
