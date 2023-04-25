@@ -8,6 +8,7 @@ const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware'); // m
 //Requerimos main.js los routers
 const mainRoutes = require('./routes/main');
 const UserRoutes = require('./routes/userRoutes');
+const productsRoutes = require('./routes/productsRoutes');
 
 const app = express();
 
@@ -33,6 +34,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.use('/', mainRoutes);
 app.use('/user', UserRoutes);
+app.use('/user', productsRoutes);
 
 
  //se levanta el puerto 

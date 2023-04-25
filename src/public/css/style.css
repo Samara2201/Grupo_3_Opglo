@@ -251,7 +251,18 @@ footer{
   color: white;
 }
 
-
+.navbar-dark.bg-dark {
+  background-color: #000000 !important;
+}
+#navbarNavDropdown {
+  background-color: #000000 !important;
+}
+.navbar-brand {
+  color: red !important;
+}
+.nav-link{
+  color: rgb(255, 255, 255) !important;
+}
 
 
 
