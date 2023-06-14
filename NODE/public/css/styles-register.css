@@ -1,0 +1,274 @@
+:root{
+    /* Colores */
+    --blanco: #FFF;;
+    --amarillo:#E9E600;;
+    --gris: #A8A8A8;;
+    /* Familias de Fuentes */
+    font-family: 'Bebas Neue', cursive;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:before,*:after{
+    box-sizing: border-box;
+}
+
+/*Codigo de formulario muestra*/
+body{
+    color:#fff;
+    background-color:black;
+    margin: auto;
+
+}
+
+img{
+    width: 100%;
+}
+
+
+form a{
+    font-size:12px ;   
+}
+
+.formulario-forma{
+    padding: 20px 15px;
+}
+
+.control-formulario{
+    /* margin-bottom: 15px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.control-input{
+    width: 100%;
+    padding: 9px;
+    color: #fff;
+    background-color: black;
+    margin-bottom: 2%;
+    border:0;
+    border-radius: 5px;
+}
+
+/*Barra de codigo register-confirmation*/
+.control-input-confirmation:hover{
+    background-color: black;
+    margin: 1px solid white;
+    color:white;
+    border-radius: 8px;
+    padding:5px 15px;
+    border: none;
+}
+
+.control-input-confirmation{
+    width: 100%;
+    padding: 9px;
+    color: #fff;
+    background-color: rgba(150, 152, 154, 0.6);
+    margin-bottom: 5%;
+    border:0;
+    transition: all 0.5s;
+}
+
+/*Barra de codigo register-confirmation*/
+
+.boton-formulario, .control-envio{
+    color:black;
+    background-color: #e9e600;
+    border: 0;
+}
+
+body a{
+    color: #fff;
+}
+
+main div{
+    text-align: center;
+}
+
+form div i{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3%;
+}
+
+.mensaje-logo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    padding: 3%;   
+}
+
+.mensaje-logo h1{
+    font-size: 3vw;
+}
+
+.mensaje-logo img{
+    width: 20%;
+}
+
+.control-envio{
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 8px 0;
+    font-size: 2vw;
+}
+
+.form-label{
+    text-align: left;
+}
+
+/*video*/
+#video_background {
+
+    position: absolute;
+    
+    bottom: 0px;
+    
+    right: 0px;
+    
+    min-width: 100%;
+    
+    min-height: 100%;
+    
+    width: auto;
+    
+    height: auto;
+    
+    z-index: -1000;
+    
+    overflow: hidden;
+    
+    }
+    
+    #video_pattern {
+    
+    background:#fff;
+    
+    position: fixed;
+    
+    opacity: 0.8;
+    
+    left: 0px;
+    
+    top: 0px;
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    z-index: 1;
+    
+    }
+/*video*/
+
+
+/*Transiciones*/
+
+.formulado-interno{
+margin: 10px solid white;
+background-color: rgba(150, 152, 154, 0.2);
+padding: 10px;
+border-radius: 5px;
+padding-bottom: 20px;
+}
+.formulado-interno{
+    transition: all 0.5s;
+}
+
+.control-input:hover{
+    background-color: #fff;
+    /* margin: 1px solid white; */
+    color:black;
+    /* border-radius: 5px;
+    padding:5px 10px;
+    border: none; */
+}
+
+.control-input{
+    transition: all 0.5s;
+}
+
+.mensaje-error{
+    color: red;
+}
+
+.is-valid {
+    color: #198754;
+  }
+  
+  .is-invalid {
+    color: #842029;
+  }
+  
+  .alert-warning{
+    color: #842029;
+    margin-left: 3%;
+  }
+
+
+/*Animacion*/
+/* .logo-solo {
+    width: 10px;
+    padding: 2%;
+   
+      position: relative;
+      border-radius: 100%;
+      animation-name:achicando;
+      animation-duration:1000ms;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+  } */
+   
+  
+  @keyframes achicando {
+      0% {
+      }
+      
+      100% {
+     
+          width: 40px;
+          opacity: 0.5;
+      }
+  }    
+
+
+ @media(min-width:361px){
+
+ }
+
+
+
+  @media(min-width:769px){
+
+    /*Codigo de formulario muestra*/
+
+    .mensaje-logo{  
+        font-size: 10px;
+    }
+
+    .formulario-forma{
+        padding: 10px 90px;
+    }
+
+    form a{
+        font-size:14px ;   
+    }
+    
+}
+
+
+ @media(min-width:1200px){
+    .formulario-forma{
+        padding: 10px 350px;
+    }
+
+}
+ 

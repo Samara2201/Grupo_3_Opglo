@@ -1,0 +1,124 @@
+<link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="/css/mediaQueryStyle.css">
+<div class="main-header">
+  <a class="burger-menu-header" href="#" onclick="alterStyle(mb)">
+    <div>
+      <i class="fas fa-bars"></i>
+    </div>
+  </a>
+
+  <a href="/"><img class="logo-header" src="/img/logo-one.png" /></a>
+  <nav class="main-nav-header">
+    <ul class="ul-menu">
+      <% if (locals.estaLogueado) { %> <% if
+      (locals.usuarioLogueado.user_rol=='admin' ) { %>
+      <li>
+        <a href="/users/admin">
+          <span class="nav-btn-text">ADMIN</span>
+        </a>
+      </li>
+      <% } %> <% } %>
+      <li>
+        <a href="/products?categoria=Hombre">
+          <span class="nav-btn-text">Hombre</span>
+        </a>
+      </li>
+      <li>
+        <a href="/products?categoria=Mujer">
+          <span class="nav-btn-text">Mujeres</span>
+        </a>
+      </li>
+      <li>
+        <a href="/products?categoria=Digital">
+          <span class="nav-btn-text">Digital</span>
+        </a>
+      </li>
+      <li>
+        <a href="/products?categoria=Otros">
+          <span class="nav-btn-text">Otros</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="search-cart">
+    <% if (locals.estaLogueado) { %>
+    <a class="name" href="/users/profile"
+      ><img
+        class="img-perfil"
+        src="/img/users/<%=locals.usuarioLogueado.image%>"
+        alt="<%=locals.usuarioLogueado.name%>"
+    /></a>
+    <a class="log-out" href="/users/logout">Logout</a>
+    <% } else { %>
+    <!-- Ventana modal del login -->
+    <%- include('./modal-login.ejs') %>
+    <!-- FIN Ventana modal del login -->
+    <% } %>
+    <button class="search-btn">
+      <i class="fas fa-shopping-cart" onclick="mostrarCart(cr)"> </i>
+      <span class="num_carrito" id="badge-cart" onclick="mostrarCart(cr)">
+        <%= locals.numCarrito %>
+      </span>
+    </button>
+  </div>
+</div>
+
+<div id="mb">
+  <nav class="nav-mobile">
+    <div>
+      <a class="li-a" onclick="resStyle(mb)"><i class="fa-solid fa-x"></i></a>
+    </div>
+    <ul class="ul-menu-mobile">
+      <li>
+        <a href="/">
+          <span class="nav-btn-text">HOME</span>
+        </a>
+      </li>
+      <% if (locals.estaLogueado) { %> <% if
+      (locals.usuarioLogueado.user_rol=='admin' ) { %>
+      <li>
+        <a href="/users/admin">
+          <span class="nav-btn-text">ADMIN</span>
+        </a>
+      </li>
+      <% } %> <% } %>
+      <li>
+        <a href="/products?categoria=catalogo">
+          <span class="nav-btn-text">PRODUCTOS</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="nav-btn-text">STREAMING</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="nav-btn-text">DIADEMAS</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<div id="cr"><%- include('./modalCart.ejs') %></div>
+
+<script type="text/javascript">
+  function alterStyle(mb) {
+    // mb.style.right = '10vw';
+    mb.style.transform = "translateX(558px)";
+    mb.style.transition = "all 500ms ease";
+  }
+  function resStyle(mb) {
+    // mb.style.right = '600px';
+    mb.style.transform = "translateX(0%)";
+  }
+  function ocultarCart(cr) {
+    // cr.style.left = '400px';
+    cr.style.transition = "all 500ms ease";
+    cr.style.transform = "translateX(2000px)";
+  }
+  function mostrarCart(cr) {
+    // // cr.style.left = '0px';
+    cr.style.transform = "translateX(0px)";
+  }
+</script>

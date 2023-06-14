@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://kit.fontawesome.com/8b485465bd.js" crossorigin="anonymous"></script>
+  <script src="/js/productValidations.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/styles-FormulariosProductos.css">
+  <link rel="stylesheet" href="/css/styles-header.css" />
+  <link rel="stylesheet" href="/css/styles-footer.css" />
+  <link rel="shortcut icon" href="/img/logo-solo.png" />
+
+  <title>Edicion de productos</title>
+</head>
+
+<body class="body-register-confirmation">
+  <!-- HEADER -->
+  <header>
+    <div class="main-header">
+      <a class="burger-menu-header" href="#" onclick="alterStyle(mb)">
+        <div>
+          <i class="fas fa-bars"></i>
+        </div>
+      </a>
+
+      <a href="/"><img class="logo-header" src="/img/logo-one.png" /></a>
+      <nav class="main-nav-header">
+        <ul class="ul-menu">
+          <% if (locals.estaLogueado) { %>
+            <% if (locals.usuarioLogueado.user_rol=='admin' ) { %>
+              <li>
+                <a href="/users/admin">
+                  <span class="nav-btn-text">ADMIN</span>
+                </a>
+              </li>
+              <% } %>
+                <% } %>
+                <li>
+                  <a href="/products?categoria=Hombre">
+                    <span class="nav-btn-text">Hombres</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/products?categoria=Mujer">
+                    <span class="nav-btn-text">Mujeres</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/products?categoria=Otros">
+                    <span class="nav-btn-text">Otros</span>
+                  </a>
+                </li>
+        </ul>
+      </nav>
+      <div class="search-cart">
+        <% if (locals.estaLogueado) { %>
+          <a class="name" href="/users/profile"><img class="img-perfil"
+              src="/img/users/<%=locals.usuarioLogueado.image%>" alt="<%=locals.usuarioLogueado.name%>"></a>
+          <a class="log-out" href="/users/logout">Logout</a>
+          <% } else { %>
+            <!-- Ventana modal del login -->
+            <%- include('../partials/modal-login.ejs') %>
+              <!-- FIN Ventana modal del login -->
+              <% } %>
+                <a href="#"><button class="search-btn"><i class="fas fa-search"></i></button></a>
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <form action="/products/<%= productoEditar.id_products %>?_method=PUT" method="POST" id="form"
+      class="formulario-forma" enctype="multipart/form-data">
+      <div class="mensaje-logo">
+        <h1>EDICIÓN DE PRODUCTO</h1>
+      </div>
+      <p>Complete todos los campos para editar correctamente el producto: <%= productoEditar.name %>
+      </p><br>
+
+      <div class="formulado-interno">
+        <div class="control-formulario">
+          <label for="name">Nombre del producto:
+            <% if (locals.errors && errors.name) { %>
+              <div class="mensaje-error">
+                <%= errors.name.msg %>
+              </div>
+              <% } %>
+          </label>
+          <div class="ulErrorsNombreBlur alert-warning"></div>
+          <input type="text" name="name" id="name" placeholder="NOMBRE DEL PRODUCTO" class="control-input"
+            value="<%= productoEditar.name %>">
+        </div>
+
+        <div class="control-formulario">
+          <label for="brand">Seleccione la marca del producto:
+            <% if (locals.errors && errors.brand) { %>
+              <div class="mensaje-error">
+                <%= errors.brand.msg %>
+              </div>
+              <% } %>
+          </label>
+          <div class="ulErrorsMarcaBlur alert-warning"></div>
+          <select name="brand" id="brand" class="control-input">
+            <option value="">Seleccione una marca</option>
+            <% brands.forEach(brand=> { %>
+              <option value="<%= brand.id_brands %>" <%=productoEditar.id_brands==brand.id_brands? "selected" : null %>>
+                <%= brand.brand %>
+              </option>
+              <% }); %>
+          </select>
+        </div>
+
+        <div class="control-formulario">
+          <label for="price">Indique el precio del producto:
+            <% if (locals.errors && errors.price) { %>
+              <div class="mensaje-error">
+                <%= errors.price.msg %>
+              </div>
+              <% } %>
+          </label>
+          <div class="ulErrorsPrecioBlur alert-warning"></div>
+          <input type="number" name="price" id="price" placeholder="$ 000.000" class="control-input"
+            value="<%= productoEditar.price %>">
+        </div>
+
+        <div class="control-formulario">
+          <label for="categories">Seleccione la categoria del producto:
+            <% if (locals.errors && errors.categories) { %>
+              <div class="mensaje-error">
+                <%= errors.categories.msg %>
+              </div>
+              <% } %>
+          </label>
+          <div class="ulErrorsCategoriasBlur alert-warning"></div>
+          <select name="categories" id="categories" class="control-input">
+            <option value="">Seleccione una categoria</option>
+            <% categories.forEach(category=> { %>
+              <option value="<%= category.id_categories %>"
+                <%=productoEditar.id_categories==category.id_categories? "selected" : null %>> <%= category.categories
+                  %>
+              </option>
+              <% }); %>
+          </select>
+        </div>
+
+        <div class="control-formulario-check">
+          <label for="color">Seleccione el color del producto:
+            <% if (locals.errors && errors.color) { %>
+              <div class="mensaje-error">
+                <%= errors.color.msg %>
+              </div>
+              <% } %>
+          </label>
+
+          <% for(let i=0; i < colors.length; i++) { %>
+            <input type="checkbox" value="<%= colors[i].id_colors %>" <% for( let j=0; j < productoEditar.colors.length;
+              j++ ) { %>
+            <% if (colors[i].id_colors==productoEditar.colors[j].id_colors) { %>
+              checked
+              <% } %>
+                <% } %>
+                  name="color" id="color" class="checkbox">
+                  <%= colors[i].colors %>
+
+                    <% } %>
+        </div>
+
+        <div class="control-formulario">
+          <label for="accesories">Indique los accesorios del producto:
+            <% if (locals.errors && errors.accesories) { %>
+              <div class="mensaje-error">
+                <%= errors.accesories.msg %>
+              </div>
+              <% } %>
+          </label>
+          <div class="ulErrorsAccesoriosBlur alert-warning"></div>
+          <input type="texT" name="accesories" id="accesories" placeholder="ACCESORIOS" class="control-input"
+            value="<%= productoEditar.accesories %>">
+        </div>
+
+        <div class="control-formulario">
+          <label for="image">Ingrese una imagen del producto:<br><br></label>
+          <input type="file" name="image" id="image" class="control-input" value="<%= productoEditar.image %>" multiple>
+        </div>
+
+        <div class="control-formulario">
+          <label for="description">Realice una breve descripcion del producto:
+            <% if (locals.errors && errors.description) { %>
+              <div class="mensaje-error">
+                <%= errors.description.msg %>
+              </div>
+              <% } %>
+          </label>
+          <div class="ulErrorsDescripcionBlur alert-warning"></div>
+          <textarea name="description" id="description" placeholder="DESCRIPCION DEL PRODUCTO"
+            class="control-input"><%= productoEditar.description %></textarea>
+        </div>
+
+        <ul class="errores alert-warning"></ul><br>
+        <div class="control-envio"><button type="submit" class="boton-formulario">EDITAR PRODUCTO</button>
+          <a href="/products/create" class="control-final">INGRESAR UN NUEVO PRODUCTO</a>
+          <br>
+    </form>
+    <form action="/products/<%=productoEditar.id%>?_method=DELETE" method="POST" style="display: inline-flex">
+      <button type="submit" class="boton-formulario">ELIMINAR ESTE PRODUCTO</button>
+    </form>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <%- include('../partials/footer.ejs') %>
+  </footer>
+
+</body>
+
+</html>

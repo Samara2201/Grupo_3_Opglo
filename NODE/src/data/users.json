@@ -1,0 +1,26 @@
+[
+  {
+   "id": 1,
+   "fullName": "Samara Zorrilla Santiz",
+   "email": "samarasan-12@hotmail.com",
+   "password": "$2a$10$kO5kaI8Eoa57XT6BBSOJ0eoHrkiiLxZPstRrCar8EAqieYaTPB5vC",
+   "country": "Colombia",
+   "avatar": "1681955350983_img.jpg"
+  },
+  {
+   "id": 2,
+   "fullName": "Samara Zorrilla Santiz",
+   "email": "lufe9872@gmail.com",
+   "password": "$2a$10$yFgRUN6j06TbD/OcIiWB8OL1g.ewvfTOPz9TesUhVPRKg9u/CtXoW",
+   "country": "Bolivia",
+   "avatar": "1681955424032_img.jpg"
+  },
+  {
+   "id": 3,
+   "fullName": "Diego Alejandro Niño",
+   "email": "diegoalejandroninolozano@gmail.com",
+   "password": "$2a$10$OuYrHsMkaogekXnmreCB.uge0RGRms6rWEpOGXqvBaT9CANUVMFHC",
+   "country": "Colombia",
+   "avatar": "1682055414485_img.png"
+  }
+ ]

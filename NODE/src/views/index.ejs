@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fcf9db6539.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="/css/mediaQueryStyle.css">
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/styles-home.css" />
+  <link rel="stylesheet" href="css/styles-header.css" />
+  <link rel="stylesheet" href="css/styles-footer.css" />
+  <link rel="shortcut icon" href="/img/logo-solo.png" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <%- include('./partials/header') %>
+  </header>
+  <main>
+    <div class="banner">
+      <div class="slide-1">
+        <video class="video-slide" autoplay controls="true" loop preload muted src="videos/bgn-banner-k70-rgb-pro.mp4"></video>
+        <div class="des-slide">
+          <h1>Opglo</h1>
+          <p>Elegance and Technology</p>
+          <button><a href="/products/productdetail/4">COMPRAR AHORA</a></button>
+        </div>
+      </div>
+    </div>
+    <section class="explore-product">
+    <div class="product">
+        <a href="/products?categoria=Hombre">
+          <img src="img/products/reloj5.png" alt="" />
+        </a>
+        <div class="product-name">Hombres</div>
+      </div>
+      <div class="product">
+        <a href="/products?categoria=Mujer">
+          <img src="img/products/relojmujer.png" alt="" />
+        </a>
+        <div class="product-name">Mujeres</div>
+      </div>
+      <div class="product">
+        <a href="/products?categoria=Hombre">
+          <img src="img/products/1686700190978_img_.png" alt="" />
+        </a>
+        <div class="product-name">Digital</div>
+      </div>
+      <div class="product">
+        <a href="/products?categoria=Digital">
+          <img src="img/products/relogpared.png" alt="" />
+        </a>
+        <div class="product-name">Otros</div>
+      </div>
+    </section>
+    <div class="g1-content">
+      <section class="content-g1">
+        <a href="#">
+          <h2>Relojes con el mejor estilo</h2>
+          <p>Los relojes para cualquier ocasión.</p>
+          <button><a href="#">COMPRAR AHORA</a></button>
+        </a>
+      </section>
+      <section class="content-g2">
+        <a href="#">
+            <h2>Relojes con el mejor estilo</h2>
+            <p>Los relojes para cualquier ocasión.</p>
+          <button><a href="#">COMPRAR AHORA</a></button>
+        </a>
+      </section>
+    </div>
+    <div class="g1-content">
+      <section class="content-icue">
+        <a href="#">
+          <img src="img/logo-one.png" alt="">
+          <h2>Los mejores en el mercado</h2>
+        </a>
+      </section>
+      <section class="content-g3">
+        <a href="#">
+
+        </a>
+      </section>
+    </div>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <%- include('./partials/footer') %>
+  </footer>
+</body>
+
+</html>

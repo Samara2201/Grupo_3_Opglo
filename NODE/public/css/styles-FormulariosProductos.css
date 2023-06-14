@@ -1,0 +1,247 @@
+:root {
+  /* Colores */
+  --blanco: #fff;
+  --amarillo: #e9e600;
+  --gris: #a8a8a8;
+  /* Familias de Fuentes */
+  font-family: "Bebas Neue", cursive;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/*Codigo de formulario muestra*/
+body {
+  color: #fff;
+  background-color: black;
+  margin: auto;
+}
+
+.precio{
+    font-size: 1.5vw;
+}
+
+.formulario-forma {
+  padding: 20px 15px;
+}
+
+.control-formulario {
+  /* margin-bottom: 15px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.control-formulario-check{
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 7%;
+}
+
+.control-input {
+  width: 100%;
+  padding: 9px;
+  color: #fff;
+  background-color: black;
+  margin-bottom: 2%;
+  border: 0;
+  border-radius: 60px;
+}
+
+.control-envio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.control-final {
+  color: black;
+  background-color: #e9e600;
+  border: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*Barra de codigo register-confirmation*/
+.control-input-confirmation:hover {
+  background-color: black;
+  margin: 1px solid white;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 15px;
+  border: none;
+}
+
+img {
+  width: 100%;
+}
+
+.control-input-confirmation {
+  width: 100%;
+  padding: 9px;
+  color: #fff;
+  background-color: rgba(150, 152, 154, 0.6);
+  margin-bottom: 5%;
+  border: 0;
+  transition: all 0.5s;
+}
+
+/*Barra de codigo register-confirmation*/
+
+.boton-formulario {
+  color: black;
+  background-color: #e9e600;
+  border: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.boton-formulario:hover {
+  background-color: #ceca00;
+  cursor: pointer;
+}
+
+main div {
+  text-align: center;
+}
+
+form div i {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3%;
+}
+
+.mensaje-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3%;
+  font-size: 8px;
+}
+
+/*video*/
+#video_background {
+  position: absolute;
+
+  bottom: 0px;
+
+  right: 0px;
+
+  min-width: 100%;
+
+  min-height: 100%;
+
+  width: auto;
+
+  height: auto;
+
+  z-index: -1000;
+
+  overflow: hidden;
+}
+
+#video_pattern {
+  background: #fff;
+
+  position: fixed;
+
+  opacity: 0.8;
+
+  left: 0px;
+
+  top: 0px;
+
+  width: 100%;
+
+  height: 100%;
+
+  z-index: 1;
+}
+/*video*/
+
+/*Transiciones*/
+
+.formulado-interno {
+  margin: 10px solid white;
+  background-color: rgba(150, 152, 154, 0.2);
+  padding: 10px;
+  border-radius: 1%;
+}
+
+.control-input:hover {
+  background-color: #fff;
+  /* margin: 1px solid white; */
+  color: black;
+  /* border-radius: 5px;
+  padding: 5px 10px;
+  border: none; */
+}
+
+.control-input {
+  transition: all 0.5s;
+}
+
+.second-navbar:hover {
+  background-color: rgba(150, 152, 154, 0.2);
+}
+
+.second-navbar {
+  transition: all 0.5s;
+}
+
+.mensaje-error{
+  color: red;
+  font-size: 18px;
+
+}
+
+.is-valid {
+  color: #198754;
+}
+
+.is-invalid {
+  color: #842029;
+}
+
+.alert-warning{
+  color: #842029;
+  padding-left: 3%;
+}
+
+@media (min-width: 361px) {
+}
+
+@media (min-width: 769px) {
+  /*Codigo de formulario muestra*/
+
+  .mensaje-logo {
+    font-size: 10px;
+  }
+
+  .formulario-forma {
+    padding: 10px 90px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .formulario-forma {
+    padding: 10px 350px;
+  }
+}

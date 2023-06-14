@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="js/loginValidations.js"></script>
+    <!--<link href="/css/styles-recover.css" rel="stylesheet">-->
+    <link href="./css/normalize.css" rel="stylessheet">
+    <link rel="stylesheet" href="/css/styles-header.css" />
+    <link rel="stylesheet" href="/css/styles-footer.css" />
+    <link href="/css/styles-recover.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/98fbc29962.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8b485465bd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="/img/logo-solo.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body class="body-recover">
+
+    <header>
+        <%- include('../partials/header') %>
+    </header>
+
+    <main>
+        <div class="contenedor1-recover">
+            <h2 class="titulo-recover">HA OLVIDADO SU CONTRASEÑA</h2>
+            <p class="text-recover">Escriba su dirección de correo electrónico para recuperar la contraseña</p>
+            <form action="/login.html" method="POST" class="form-recover">
+                
+            <p for="email" class="name">DIRECCIÓN DE CORREO ELECTRÓNICO</p>
+
+                <div class="email-recover">
+                    <input type="email" name="email" id="email" class="input-recover" required>
+                </div>
+                <div class="rectangulo-recover"></div>
+    
+                <button type="submit" class="boton-inicio-sesion"><b>ENVIAR</b></button>  
+        
+            </form>
+            <a href="/login" class="link-login">Volver al inicio de sesion</a>
+    </main>
+    
+    <footer>
+        <%- include('../partials/footer.ejs') %>
+    </footer>
+</body>
+</html>

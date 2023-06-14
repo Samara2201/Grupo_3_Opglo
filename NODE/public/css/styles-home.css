@@ -1,0 +1,274 @@
+:root{
+    /* Colores */
+    --blanco: #FFF;;
+    --amarillo:#E9E600;;
+    --gris: #A8A8A8;;
+    /* Familias de Fuentes */
+    font-family: 'Bebas Neue', cursive;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.02em;
+}
+img{
+    width: 100%;
+}
+
+*:before,*:after{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+}
+
+h1{
+    margin: 0 auto;
+}
+
+.banner{
+    display: flex;
+    height: 43vw;
+    width: 100%;
+    overflow: hidden;
+    top: 0%;
+    left: 0%;
+    position: relative;
+/*     border: dashed 1px red; */
+}
+
+.slide-1{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 43vw;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 6vw; 
+}
+
+.des-slide{
+    color: #FFF;
+    font-size: 3vw;
+}
+
+.des-slide p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.des-slide a{
+    color: black;
+    text-decoration: none;
+    font-weight:normal;
+}
+
+.des-slide button{
+    background: #E9E600;
+    padding: 1vw 4vw;
+    border: 0px;
+    margin: 5vw 0 3vw 0;
+}
+
+.des-slide button:hover{
+    background: #e9e500a2;
+}
+
+.video-slide{
+    -moz-transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    transform:scale(1.5);
+/*     width:auto; */
+    position: absolute;
+    z-index: -10;
+    visibility: visible;
+
+}
+
+
+/**BODY START**/
+.explore-product{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    background-image: url(/img/relojmoto.jpeg);
+    height: 30vw;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    /* width: 100vw; */
+
+}
+
+.product{
+    width: 20vw;
+    background-image: linear-gradient(135deg, #000000 0%, #2F2240 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.product:hover{
+    border: #E9E600 1px solid;
+}
+
+.product-name{
+    border: 4px;
+    font-size: 2vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px 0;
+}
+.product img{
+    width: 18vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content-g1{
+    margin: 1rem 0;
+    background-image: url(/img/relojes1234.jpg);
+   
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 1rem 1rem 20% 1rem;
+    font-weight: 200;
+}
+
+.content-g1 h2{
+    color: #FFF;
+}
+
+.content-g1 button{
+    background: #E9E600;
+    padding: 1vw 4vw;
+    border: 0px;
+    margin: 5vw 0 7vw 0;
+    color: black;
+}
+
+.content-g1 p{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-g1 a{
+    color: black;
+    text-decoration: none;
+    font-weight:normal;
+    
+}
+
+.content-g2{
+    margin: 1rem 0;
+    background-image: url(/img/Reloje1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 1rem 1rem 20% 1rem;
+    font-weight: 200;
+}
+
+.content-g2 h2{
+    color: #FFF;
+}
+
+.content-g2 button{
+    background: #E9E600;
+    padding: 1vw 4vw;
+    border: 0px;
+    margin: 5vw 0 7vw 0;
+    color: black;
+}
+
+.content-g2 p{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-g2 a{
+    color: black;
+    text-decoration: none;
+    font-weight:normal;  
+}
+
+.content-g3{
+    background-image: url(/img/relojmoto.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 10rem 1rem 20% 1rem;
+    font-weight: 200;
+}
+
+.content-icue{
+    background-color: #272A33;
+    width: 100%;
+    text-align: center;
+    padding: 10vw 0;
+    font-size: 3vw;
+}
+
+.content-icue h2{
+    color: #E9E600;
+}
+
+.content-icue p{
+    color: #fff;
+}
+
+.content-icue img{
+    width: 30%;  
+}
+
+
+/**BODY END**/
+
+@media (min-width: 361px) {
+    .email{
+        font-size: 3vw;
+    }
+    .info{
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner{
+        height: 70vw;
+    }
+    .slide-1{
+        height: 70vw;
+    }
+}
+
+@media (min-width: 769px) {
+    .g1-content{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .content-g1{
+        margin: 1rem;
+    }
+    .content-icue{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-g3{
+        width: 60%;
+        padding: 1rem 1rem 20% 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
